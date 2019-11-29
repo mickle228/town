@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+html {
+    background-color: #029c7d;
+    font-family: 'McLaren', cursive;
+}
+.container{
+    display: flex;
+}
+
+a{ text-decoration: none;
+    color: #0499ff;}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.menu1{
+    display: flex;
+    width: 30%;
+    height: 823px;
+    background-color:#16c4a1;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    padding: 30px 30px 30px 30px;
+    transition: all .3s;
+    margin: 35px 30px 30px 30px;
+}
+
+.menu1:hover {
+	transform: scale(1.03);
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #037059;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    min-height:40px;
+    border-bottom: 4px solid #025745;
+    border-radius: 14px;
+}
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Alatsi', sans-serif;
+}
+.name{
+    display: block;
+    margin-right: auto;
+ }
+    
+.menu li{
+    padding: 10px;
+}
+    
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'McLaren', bold;
+}
+
+.left-col{
+    height: 700px;
+    width: 46%;
+ 
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+}
+
+.left-col:hover {
+	transform: scale(1.03);
+}
+
+.right-col{
+    height: 700px;
+    width: 46%;
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+}
+
+.right-col:hover {
+	transform: scale(1.03);
+}
+
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}

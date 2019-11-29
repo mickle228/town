@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.yura{
+    font-family: 'McLaren', cursive;
+}
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'McLaren', bold;
+}
+.color {
+    text-decoration: none;
+    color: #0499ff;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body {
+    margin:0;
+    padding:0;
+
+
+    background-color: #029c7d;
+}
+
+.name{
+    display: block;
+    margin-right: auto;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* добавив стиль для колонки */
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  margin: 20px;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.div1{
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    margin: 30px 30px 30px 30px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+    padding: 30px;
+
+}
+
+.div{  
+    background-color: white;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div1:hover {
+	transform: scale(1.02);
+}
+
+.div2{
+    background-color: white;
+    height: 400px;
+    padding-bottom: 0px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+    width: 800px;
+}
+
+.div2:hover {
+	transform: scale(1.02);
+}
+
+footer{
+    background-color:#037059;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    padding: 10px;
+    list-style-type: none;
+    padding-top: 0px;
+   }
+
+   ol{
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       justify-content: space-around;
+       padding: 15px;
+       margin: 0 auto;
+       width: 150px;
+   }
+
+   .tab{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab:hover {
+	transform: scale(1.2);
+}
+
+   
+   .tab{
+    height: 35px;
+    border-radius: 50%;
+   }
+      
+   .tab1{
+    height: 35px;
+    border-radius: 50%;
+   }
+      
+   .tab2{
+    height: 35px;
+    border-radius: 50%;
+   }
+   
+   .tab1{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab1:hover {
+	transform: scale(1.2);
+}
+
+.tab2{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab2:hover {
+	transform: scale(1.2);
+}
+
+.div3 {
+    height: 740px;
+    padding-bottom: 0px;
+    margin: 50px 50px 30px 10px;
+    background-color: #16c4a1;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    padding: 30px;
+    transition: all .3s;
+}
+
+.div3:hover {
+	transform: scale(1.02);
+}
+
